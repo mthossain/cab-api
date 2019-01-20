@@ -20,8 +20,8 @@ Please open `api.py` with a text editor and change local Database Details to you
 ```python
 #--------------------------------------
 #Database Details. Please modify this:
-mysql_password = "ab12345678!"
-database_name = "cab_data"
+mysql_password = "YOUR_MYSQL_PASSWORD"
+database_name = "YOUR_DATABASE_NAME"
 #--------------------------------------
 ```
 
