@@ -5,8 +5,8 @@ import mysql.connector
 
 #--------------------------------------
 #Database Details. Please modify this:
-mysql_password = "ab12345678!"
-database_name = "cab_data"
+mysql_password = "YOUR_MYSQL_PASSWORD"
+database_name = "YOUR_DATABASE_NAME"
 #--------------------------------------
 def ignore_cache(parameters):
     cache_param = parameters.get('cache')
@@ -24,10 +24,10 @@ cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 
 # Open database connection
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  passwd=mysql_password,
-  database=database_name
+  host = "localhost",
+  user = "root",
+  passwd = mysql_password,
+  database = database_name
 )
 
 
