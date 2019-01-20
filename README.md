@@ -3,7 +3,6 @@ This API gives access to know that how many trips a particular cab (medallion) h
 
 Full API Documentation is available on API's homepage.
 
-[image]
 
 ## Requirements
 ### Used Packages
