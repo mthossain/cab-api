@@ -1,5 +1,5 @@
-# (Updated) Please use the docker version of this same API here: https://github.com/mthossain/cab-api-docker
 # Cab Trip Data - API
+### Update: Docker version of this same API: https://github.com/mthossain/cab-api-docker
 This API gives access to know that how many trips a particular cab (medallion) has made given a particular pickup date.
 
 Full API Documentation is available on API's homepage.
